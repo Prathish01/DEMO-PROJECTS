@@ -3,7 +3,9 @@ function ShowCourses()
     fetch("http://localhost:8080/courses")
     .then((response) => response.json())
     .then((courses) =>
+        
     {
+        
         const datatable = document.getElementById("CourseList")
         let row = " "
         courses.forEach(course => 
@@ -13,8 +15,11 @@ function ShowCourses()
             <td>${course.courseName}</td>
             <td>${course.trainer}</td>
             <td>${course.durationInWeeks}</td>
+            
             </tr>`
+                
         });
+        
         datatable.innerHTML += row 
 
     })
@@ -38,9 +43,12 @@ students.forEach(student =>
      </tr>`
 })
 
+    
 stulist.innerHTML= row1
 
+    
 })
+
     
 
 
