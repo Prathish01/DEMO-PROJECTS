@@ -5,6 +5,7 @@ body
 
 
 }
+
 #cont {
     width: 90%;
     height: 800px;
@@ -37,6 +38,7 @@ body
     border: 1px solid black;
 }
 #bx1
+
 {
     position: relative;
     padding: 10px 10px;
@@ -53,6 +55,7 @@ body
 }
 #nm1
 {
+   
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -63,6 +66,7 @@ body
     color: white;
 }
 #para1
+
 {
     margin-top: 10px;
     font-size: 18px;
@@ -85,6 +89,7 @@ p{
 }
 
 /* box2 */
+
 
 #bx2
 {
